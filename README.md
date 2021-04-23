@@ -4,14 +4,14 @@ The official NPM Module for interacting with the Fates List API
 ---
 
 ## Installation
-`npm install coming soon`
+`npm i --save github:TheRealToxicDev/fates.js`
 
 ---
 
 ## Hard Coded Install
 Append the Line below to your package.json
 ```
-    "": "^1.0.0",
+    "fates.js": "https://github.com/TheRealToxicDev/fates.js",
 ```
 
 ---
