@@ -21,7 +21,7 @@ class FL {
     }
 
     async get(botID, response, compact){
-        if(!botID) throw new Error("Missing Bot ID, Should be String")
+        if(!botID) throw new Error("Missing Bot ID, Should be a valid Discord Snowflake")
         fetch(`https://fateslist.xyz/api/bots/${botID}` + (compact ? '?compact=true' : ''), {
             method: "GET",
             headers: {"Content-Type": "application/json"},
