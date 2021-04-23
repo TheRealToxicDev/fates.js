@@ -11,7 +11,7 @@ The official NPM Module for interacting with the Fates List API
 ## Hard Coded Install
 Append the Line below to your package.json
 ```
-    "fates.js": "https://github.com/TheRealToxicDev/fates.js",
+"fates.js": "https://github.com/TheRealToxicDev/fates.js",
 ```
 
 ---
